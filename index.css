@@ -1,0 +1,101 @@
+@font-face{
+    font-family: myFont;
+    src: url(Canterbury.ttf);
+} 
+
+.flex-container{
+    display: flex;
+    height: 70px;
+    justify-content:space-between;
+    align-items: center;
+}
+.flex-container h1{
+    font-family: myFont;
+    font-size: 70px;
+}
+.flex-container p{
+    width: 150px;
+    overflow-wrap: break-word;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+}
+.para{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.flex-container2{
+    display: flex;
+}
+.flex-inside1{
+    
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.flex-inside1-articles{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.flex-inside1-articles-left{
+    width: 25%;
+    
+}
+
+.flex-inside1-articles-right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.flex-inside1-articles-right-main{
+    display: flex;
+}
+.flex-inside1-articles-right-second{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+.flex-inside2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.flex-inside2-article{
+    display: flex;
+}
+.flex-inside2-article-left img{
+    width: 200px;
+    height: auto;
+}
+.flex-inside2-article2 {
+    display: flex;
+}
+.flex-inside2-article2-left{
+    width: 50%;
+}
+.flex-inside2-article2-right{
+    width: 50%;
+}
+.flex-inside2-article3{
+    display: flex;
+}
+.flex-inside2-article3-left{
+    width: 50%;
+}
+.flex-inside2-article3-right{
+    width: 50%;
+}
