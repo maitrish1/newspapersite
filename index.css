@@ -2,7 +2,9 @@
     font-family: myFont;
     src: url(Canterbury.ttf);
 } 
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .flex-container{
     display: flex;
     height: 70px;
@@ -16,6 +18,7 @@
 .flex-container p{
     width: 150px;
     overflow-wrap: break-word;
+   
 }
 .container1{
     display: flex;
@@ -80,6 +83,12 @@
 .flex-inside2-article-left img{
     width: 200px;
     height: auto;
+}
+.flex-inside2-article-left{
+    width: 50%;
+}
+.flex-inside2-article-right{
+    width: 50%;
 }
 .flex-inside2-article2 {
     display: flex;
